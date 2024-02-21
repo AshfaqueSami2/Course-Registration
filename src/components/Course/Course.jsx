@@ -1,9 +1,18 @@
 import "./Course.css";
 import { LuDollarSign } from "react-icons/lu";
 import { FaBookOpen } from "react-icons/fa";
+import { useState } from "react";
 
 const Course = ({ course, handleCourses }) => {
+  const [buttonClicked, setButtonClicked] = useState(false);
+
   const { id, title, image, description, price, credit_hours } = course;
+
+  const handleClick = () => {
+    handleCourses(course);
+    setButtonClicked(true);
+  };
+
   return (
     <div className="ml-4 mb-6 border-2  rounded-xl shadow-lg  ">
       <div className="flex justify-center	p-4">
@@ -47,9 +56,15 @@ const Course = ({ course, handleCourses }) => {
         </div>
       </div>
       {/* button */}
-      <div className="flex mx-auto justify-center  w-10/12 mb-8 h-10 border-2 rounded-xl  select-btn">
-        <button onClick={() => handleCourses(course)} className="text-white	">
-          Select
+      <div className={`flex mx-auto justify-center ${buttonClicked ? 'bg-green-100 border-green-500' : ''} w-10/12 mb-8 h-10 border-2 rounded-xl  select-btn `}>
+        <button
+          onClick={handleClick}
+          className={`text-white `}
+          style={{ color: buttonClicked ? "black" : "black" }}
+          disabled={buttonClicked}
+         
+        >
+          {buttonClicked ? "Selected" : "Select"}
         </button>
       </div>
     </div>

@@ -12,7 +12,7 @@ const Courses = ({ handleCourses }) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 w-3/4  ">
+    <div className="sm:grid grid-cols-3 w-3/4  ">
       {courses.map((course) => (
         <Course
           key={course.id}

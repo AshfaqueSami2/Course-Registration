@@ -3,7 +3,7 @@ import "./App.css";
 import Cards from "./components/Cards/Cards";
 import Courses from "./components/Courses/Courses";
 import Header from "./components/Header/Header";
-import Card from "./components/Card/Card";
+
 
 function App() {
   const [courses, setCourses] = useState([]);
@@ -11,6 +11,8 @@ function App() {
   const handleCourses = (course) => {
     const newHandleCourses = [...courses, course];
     setCourses(newHandleCourses);
+
+    
   };
 
   return (
@@ -19,6 +21,7 @@ function App() {
       <div className="flex">
         <Courses handleCourses={handleCourses}></Courses>
         <Cards courses={courses}></Cards>
+       
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 .card{
     width: 312px;
-    height: 355px;
-    border: 2px solid green;
+    height: fit-content;
+    /* border: 2px solid green; */
 }
 
 .credit{
@@ -27,4 +27,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.course-title{
+    color: rgba(28, 27, 27, 0.60);
+    font-style: normal;
 }
