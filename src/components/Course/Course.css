@@ -1,0 +1,14 @@
+.description{
+font-size: 12px;
+color: #7F7E7E;
+}
+
+.img{
+    width: 430px;
+   height: 250px;
+}
+
+.select-btn{
+    background-color: #2F80ED;
+    border-color: #2F80ED;
+}

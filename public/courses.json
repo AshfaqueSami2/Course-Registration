@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Beginner Python Programming",
+      "image": "https://i.ibb.co/nkcrB4k/1669699872629-A-Beginner-s-Guide-to-Python-Programming-Language.jpg",
+      "price": 4999,
+      "description": "Take your Python skills to the next level with this advanced programming course. Learn about advanced topics such as decorators.",
+      "credit_hours": 20
+    },
+    {
+      "id": 2,
+      "title": "Web Development Fundamentals",
+      "image": "https://i.ibb.co/qCm4Y4m/chan-w018-n001-881-B-p15-881-2048x967.jpg",
+      "price": 5999,
+      "description": "Learn the fundamentals of web development with HTML, CSS, and JavaScript. Build and style your first website from scratch.",
+      "credit_hours": 25
+    },
+    {
+      "id": 3,
+      "title": "Introduction to JavaScript",
+      "image": "https://i.ibb.co/d6nw6gJ/javascript.webp",
+      "price": 2999,
+      "description": "Get started with JavaScript, the programming language of the web. Learn basic syntax, data types, and control structures.",
+      "credit_hours": 15
+    },
+    {
+      "id": 4,
+      "title": "Machine Learning Basics",
+      "image": "https://i.ibb.co/ZY6DNVV/machine.png",
+      "price": 6999,
+      "description": "Discover the basics of machine learning and build your first predictive models using Python and scikit-learn.",
+      "credit_hours": 30
+    },
+    {
+      "id": 5,
+      "title": "React.js Crash Course",
+      "image": "https://i.ibb.co/XZXP5vF/react.png",
+      "price": 3999,
+      "description": "Learn React.js, a popular JavaScript library for building user interfaces. Create interactive web applications with ease.",
+      "credit_hours": 18
+    },
+    {
+      "id": 6,
+      "title": "Data Structures and Algorithms in Java",
+      "image": "https://i.ibb.co/cXQgR9w/algorithm.png",
+      "price": 7999,
+      "description": "Master data structures and algorithms with Java. Solve coding problems and optimize performance in your applications.",
+      "credit_hours": 35
+    },
+    {
+      "id": 7,
+      "title": "Node.js Essentials",
+      "image": "https://i.ibb.co/5xm5pCy/nodejs.png",
+      "price": 4999,
+      "description": "Learn the essentials of Node.js, a JavaScript runtime for building server-side applications. Create RESTful APIs and handle asynchronous operations.",
+      "credit_hours": 22
+    },
+    {
+      "id": 8,
+      "title": "Python for Data Science",
+      "image": "https://i.ibb.co/BnYRcgn/Python-Data-Science-Tutorial.jpg",
+      "price": 5999,
+      "description": "Discover how Python is used in data science. Explore data analysis, visualization, and machine learning techniques.",
+      "credit_hours": 28
+    },
+    {
+      "id": 9,
+      "title": "Android App Development with Kotlin",
+      "image": "https://i.ibb.co/yh8W8DP/kotlin.png",
+      "price": 6999,
+      "description": "Build Android apps with Kotlin, a modern programming language. Learn to create user interfaces, handle user input, and use device features.",
+      "credit_hours": 30
+    }
+  ]
+  
